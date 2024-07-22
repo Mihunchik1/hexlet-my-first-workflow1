@@ -1,0 +1,10 @@
+name: first
+
+on: [push]
+
+jobs:
+        say_hello:
+                runs-on: ubuntu-latest
+                steps:
+                        - name: Run make
+                          uses: make say-hello
